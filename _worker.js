@@ -12,7 +12,7 @@ import { connect } from 'cloudflare:sockets';
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = '7fe63692-f236-4372-a828-0e4b0199df20';
 
-const proxyIPs = ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'cdn.0578.eu.org', 'speedip.tuyoyo.link', 'hk.921219.xyz', 'hk2.921219.xyz', 'jp.921219.xyz', 'jp2.921219.xyz', 'cl.55188.eu.org', 'cf-cdn.tiktokcloud.top', 'qqq.achen.link', 'rn.cneupa.com', 'kr01.nttkk.com', 'jp01.nttkk.com', 'achk.cloudflarest.link', 'www.wuda.cf', '11.namesilo123.top', 'us02.nttkk.com', 'ru01.nttkk.com', 'tg.wxgqlfx.top', 'cdn-all.xn--b6gac.eu.org', 'workers.cloudflare.cyou'];
+const proxyIPs = ['speedip.tuyoyo.link', 'hk.921219.xyz', 'hk2.921219.xyz', 'jp.921219.xyz', 'jp2.921219.xyz', 'cl.55188.eu.org', 'cf-cdn.tiktokcloud.top', 'qqq.achen.link', 'rn.cneupa.com', 'kr01.nttkk.com', 'jp01.nttkk.com', 'achk.cloudflarest.link', 'www.wuda.cf', '11.namesilo123.top', 'us02.nttkk.com', 'ru01.nttkk.com', 'tg.wxgqlfx.top'];
 
 // if you want to use ipv6 or single proxyIP, please add comment at this line and remove comment at the next line
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
